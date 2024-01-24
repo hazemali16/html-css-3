@@ -1907,6 +1907,7 @@ textarea:focus::placeholder {
 }
 .colors .box-colors .active-color {
     opacity: 1;
+    
 }
 @keyframes rotate {
     0% {
@@ -1917,35 +1918,8 @@ textarea:focus::placeholder {
     }
 }
 /*end change main color*/
-.information-one {
-    position: fixed;
-    z-index: 10;
-    background-color: #e1e1e1a9;
-    bottom: -100%;
-    width: 90%;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    padding: 10px;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    transition: 0.5s;
-    line-height: 3;
-}
-.information-one p {
-    color: #777;
-}
-.information-one p span {
-    border: 1px solid #333;
-    padding: 5px 10px;
-    border-radius: 4px;
-    background-color: #eee;
-    margin: 5px;
-    cursor: pointer;
-}
-.information-show {
-    bottom: 0;
-}
+
+
 /* animation */
 @keyframes startPage {
     to {
@@ -1957,10 +1931,5 @@ textarea:focus::placeholder {
     to {
         opacity: 1;
         transform: translateX(0);
-    }
-}
-@media (max-width: 767px) {
-    .information-one {
-        display: none;
     }
 }

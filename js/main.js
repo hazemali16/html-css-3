@@ -1,5 +1,5 @@
 //count down
-let countDownDate = new Date("jan 19,2024 15:57:00").getTime();
+let countDownDate = new Date("dec 31,2024 23:59:59").getTime();
 let counter = setInterval(() => {
     let dateNow = Date.now();
     let dateDiff = countDownDate - dateNow;
@@ -229,7 +229,6 @@ buttongoup.onclick = function () {
 let icon = document.querySelector(".icon")
 let colors = document.querySelector(".colors")
 let color = document.querySelectorAll(".colors .box-colors .color")
-let infoone = document.querySelector(".information-one")
 
 icon.onclick = function () {
     colors.classList.toggle("colors-show")
@@ -259,12 +258,7 @@ color.forEach((ele) => {
 })
 
 
-document.onkeyup = function (e) {
-    if (e.key === "Escape") {
-        colors.classList.toggle("colors-show")
-        infoone.classList.toggle("information-show")
-    }
-}
+
 
 let play = document.querySelector(".videos .holder .preview .play")
 let playIcon = document.querySelector(".videos .holder .preview .play .icon")
