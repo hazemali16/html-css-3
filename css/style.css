@@ -188,11 +188,6 @@ ul {
 .go-up:hover::before {
     left: 0;
 }
-@media (max-width: 798px) {
-    .go-up {
-        bottom: 150px;
-    }
-}
 /*end global rules*/
 /*start header*/
 .header {
